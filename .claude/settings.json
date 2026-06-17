@@ -2,7 +2,18 @@
   "permissions": {
     "allow": [
       "Bash(ls -d */)",
-      "Bash(git commit -m ':*)"
+      "Bash(git commit -m ':*)",
+      "Bash(wc -l \"d:/Valerium/01-世界（旧）/种族/\"*.md)",
+      "Bash(mv \"古龙.md\" \"古龙种.md\")",
+      "Bash(mv \"巨龙.md\" \"巨龙种.md\")",
+      "Bash(mv \"飞龙.md\" \"飞龙种.md\")",
+      "Bash(mv \"地龙.md\" \"地龙种.md\")",
+      "Bash(mv \"兽龙.md\" \"兽龙种.md\")",
+      "Bash(git restore *)",
+      "Bash(git commit -m ' *)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\zhang\\Downloads"
     ]
   }
 }
